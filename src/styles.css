@@ -1,13 +1,15 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-body{
-  font-family: 'Lato', sans-serif;
+body{ 
   font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6f6f6f !important;
 }
 .mat-card{
   float: left;
   width: 100%;
   margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 .nopadding{
   padding: 0px;
@@ -96,6 +98,7 @@ body{
 .com-hd3 {
   font-size: 30px;
   color: #1b447f;
+  font-family: BrixSlab;
 }
 .margin15 {
   margin-top: 15px;
@@ -114,6 +117,7 @@ body{
 .com-hd4 {
   font-size: 25px;
   color: #30b7e2;
+  font-family: BrixSlab;
 }
 .register-btn a {
   background-color: #30b7e2;
@@ -170,4 +174,12 @@ body{
 }
 .mr-60{
   margin-top: 60px
+}
+@font-face {
+  font-family: BrixSlab; 
+ src: url(assets/font/BrixSlab-Regular.woff)
+}
+.BrixSlab
+{
+   font-family: BrixSlab;
 }
