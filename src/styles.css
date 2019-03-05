@@ -57,7 +57,7 @@ body{
   width: 100%;
 }
 .com-hd1 {
-  font-size: 40px;
+  font-size: 47px;
   color: #30b7e2;
 }
 .marginb50 {
@@ -78,7 +78,7 @@ body{
   border-radius: 5px;
 }
 .upcoming-events-section{
-  background-color: #fafafa;
+  background-color: #eff3f9;
   float: left;
   width: 100%;
 }
@@ -105,6 +105,8 @@ body{
 }
 .description {
   padding-right: 40px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .margin100 {
   margin-top: 100px;
@@ -121,7 +123,7 @@ body{
   border-radius: 5px;
 }
 .form-control{
-  border-radius: 0px;
+  border-radius: 0px !important;
 }
 .search-btn {
   width: 70%;
@@ -130,12 +132,13 @@ body{
 }
 .drop-boxes{
   padding-top: 40px;
+  padding-left: 40px;
 }
 .drop-height{
   height: 41px;
 }
 .mat-box-shadow{
-  box-shadow: 7px 6px 24px -8px rgba(0,0,0,.08);
+  box-shadow: 7px 6px 24px -8px rgba(0,0,0,.08) !important;
 }
 .custom-viewall-btn{
   background: #2a5899;
