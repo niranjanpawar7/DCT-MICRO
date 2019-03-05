@@ -74,3 +74,9 @@ hr{
     height:200px;
      width: 100%;
 }
+.mr-l-m{
+    margin-left: -15px;
+}
+.inline-flex{
+    display: inline-flex;
+}
