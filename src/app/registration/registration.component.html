@@ -1,4 +1,4 @@
-<div class="container nopadding text-up-sz">
+<div class="container text-up-sz">
   <div class="col-md-12 register-first-wrap margin35">
     <div class="padding-upcoming">
       <div class="margin15">
@@ -18,7 +18,7 @@
           <p><b>Date</b><br>March 1, 2019</p>
           <p><b>Time</b><br>11.30am - 2.30 pm ET</p>
           <p><b>Venu</b><br>Maggiano's Little Italy</p>
-          <p><b>Location</b><br><a href="#">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</a></p>
+          <p><b>Location</b><br><a href="#" class="clr-sky-blue">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</a></p>
           <div class="register-btn margin50 marginb50 hidden-mg hidden-lg hidden-sm">
             <a href="#">REGISTER</a>
           </div>
@@ -30,9 +30,10 @@
 
 <div class="clearfix"></div>
 
-<div class="container form-wrapper margin35 nopadding">
+<div class="container form-wrapper margin35">
   <div class="padding-upcoming">
-    <p class="com-hd3 event">Invitee Information</p>
+    <div class="col-md-12"><p class="com-hd3 event">Invitee Information</p></div>
+    <div class="col-md-12"> 
     <div class="col-md-6">
       <div class="form-group">
         <label>*First Name</label>
@@ -103,9 +104,8 @@
           <input type="text" class="form-control">
         </div>
       </div>
-    </div>
-
-
+      </div>
+    </div> 
   </div>
 </div>
 
@@ -113,88 +113,97 @@
 
 <div class="container margin15 text-wrapper-form">
   <div class="padding-upcoming">
-    <p class="rm-rf-bold">This program sponserd by Alexion Pharmaceuticals, Inc.</p>
-    <p class="rm-rf-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at aliquet neque. Ut eu
-      magna lacus. Morbi facilisis viverra consequat.</p>
-    <p>Please fill out the information below.</p>
-    <p class="bold">(*)connotes required fields</p>
-    <div class="">
-      <div class="col-md-8 col-xs-12 pr-30 pl-0">
-        <p class="bold">* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at
-          aliquet neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Ut eu magna lacus. Morbi facilisis
-          viverra consequat.</p>
-      </div>
-      <div class="col-md-4 col-xs-12">
+    <div class="col-md-12">
+      <div class="col-md-12">
+      <p class="rm-rf-bold">This program sponserd by Alexion Pharmaceuticals, Inc.</p>
+      <p class="rm-rf-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at
+        aliquet neque. Ut eu
+        magna lacus. Morbi facilisis viverra consequat.</p>
+      <p>Please fill out the information below.</p>
+      <p class="bold">(*)connotes required fields</p>
+      <div class="">
+        <div class="col-md-8 col-xs-12 pr-30 pl-0">
+          <p class="bold">* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at
+            aliquet neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Ut eu magna lacus. Morbi facilisis
+            viverra consequat.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
           <mat-radio-group>
-              <mat-radio-button value="1" checked="true">Person with MG</mat-radio-button>
-              <mat-radio-button value="2">Caregiver</mat-radio-button>
-              <mat-radio-button value="3">Family Member</mat-radio-button>
-              <mat-radio-button value="4">Patient Advocacy Affiliate </mat-radio-button>
-             
-            </mat-radio-group>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    <hr>
-    <div >
-      <div class="col-md-8 col-xs-12 nopadding">
-        <p class="bold">* Are you currently taking an Alexion Product?</p>
-      </div>
-      <div class="col-md-4 col-xs-12">
-          <mat-radio-group>
-              <mat-radio-button value="1" checked="true">Yes</mat-radio-button> 
-              <mat-radio-button value="2">No</mat-radio-button>
-            </mat-radio-group>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    <hr>
-    <div>
-      <div class="col-md-8 col-xs-12 nopadding">
-        <p class="bold">* How did you hear about the MakinG Connections<sup>TM</sup>education program?</p>
-      </div>
-      <div class="col-md-4 col-xs-12">
-          <mat-radio-group>
-              <mat-radio-button value="1" checked="true">Website</mat-radio-button>
-              <mat-radio-button value="2">Email Invitation </mat-radio-button>
-              <mat-radio-button value="3">Mailed Invitation </mat-radio-button>
-              <mat-radio-button value="4">Newspaper Advertisement</mat-radio-button>
-              <mat-radio-button value="11">Friends/Family</mat-radio-button>
-              <mat-radio-button value="5">OneSource<sup>TM</sup></mat-radio-button>
-              <mat-radio-button value="6">Healthcare Provider</mat-radio-button>
-              <mat-radio-button value="7">Patient Advocacy</mat-radio-button>
-              <mat-radio-button value="8">Another Patient</mat-radio-button>
-              <mat-radio-button value="9">Alexion Employee</mat-radio-button>
-              <mat-radio-button value="10">Other</mat-radio-button>
-              
-            </mat-radio-group>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    <hr>
-    <div>
-      <div class="col-md-8 col-xs-12 nopadding">
-        <p class="bold">* How did you hear about the MakinG Connections<sup>TM</sup>education program?</p>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <textarea id="subject" name="subject" class="text-area-cls"></textarea>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    <hr>
-    <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at aliquet
-      neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Nunc ut dictum lectus, sit amet fermentum lacus.
-      Curabitur ac pretium metus. Suspendisse tincidunt dapibus felis et interdum</p>
-    <p>
-        <mat-radio-button value="1" checked="true"></mat-radio-button>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna,
-        at aliquet neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Nunc ut dictum lectus, sit amet
-        fermentum lacus. Curabitur ac pretium metus. Suspendisse tincidunt dapibus felis et interdum</span> </p>
-    <div class="clearfix"></div>
-    <hr>
+            <mat-radio-button value="1" checked="true">Person with MG</mat-radio-button>
+            <mat-radio-button value="2">Caregiver</mat-radio-button>
+            <mat-radio-button value="3">Family Member</mat-radio-button>
+            <mat-radio-button value="4">Patient Advocacy Affiliate </mat-radio-button>
 
-    <div class="text-center margin35 marginb50">
-      <button class="btn btn-register">SUBMIT REGISTRATION </button>
+          </mat-radio-group>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+      <div>
+        <div class="col-md-8 col-xs-12 nopadding">
+          <p class="bold">* Are you currently taking an Alexion Product?</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <mat-radio-group>
+            <mat-radio-button value="1" checked="true">Yes</mat-radio-button>
+            <mat-radio-button value="2">No</mat-radio-button>
+          </mat-radio-group>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+      <div>
+        <div class="col-md-8 col-xs-12 nopadding">
+          <p class="bold">* How did you hear about the MakinG Connections<sup>TM</sup>education program?</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <mat-radio-group>
+            <mat-radio-button value="1" checked="true">Website</mat-radio-button>
+            <mat-radio-button value="2">Email Invitation </mat-radio-button>
+            <mat-radio-button value="3">Mailed Invitation </mat-radio-button>
+            <mat-radio-button value="4">Newspaper Advertisement</mat-radio-button>
+            <mat-radio-button value="11">Friends/Family</mat-radio-button>
+            <mat-radio-button value="5">OneSource<sup>TM</sup></mat-radio-button>
+            <mat-radio-button value="6">Healthcare Provider</mat-radio-button>
+            <mat-radio-button value="7">Patient Advocacy</mat-radio-button>
+            <mat-radio-button value="8">Another Patient</mat-radio-button>
+            <mat-radio-button value="9">Alexion Employee</mat-radio-button>
+            <mat-radio-button value="10">Other</mat-radio-button>
+
+          </mat-radio-group>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+      <div>
+        <div class="col-md-8 col-xs-12 nopadding">
+          <p class="bold">* How did you hear about the MakinG Connections<sup>TM</sup>education program?</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <textarea id="subject" name="subject" class="text-area-cls"></textarea>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+      <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna, at
+        aliquet
+        neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Nunc ut dictum lectus, sit amet fermentum lacus.
+        Curabitur ac pretium metus. Suspendisse tincidunt dapibus felis et interdum</p>
+      <p class="inline-flex">
+        <span>
+          <mat-radio-button value="1" checked="true"></mat-radio-button>
+        </span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus convallis magna,
+          at aliquet neque. Ut eu magna lacus. Morbi facilisis viverra consequat. Nunc ut dictum lectus, sit amet
+          fermentum lacus. Curabitur ac pretium metus. Suspendisse tincidunt dapibus felis et interdum</span>
+      </p>
+      <div class="clearfix"></div>
+      <hr>
+
+      <div class="text-center margin35 marginb50">
+        <button class="btn btn-register">SUBMIT REGISTRATION </button>
+      </div>
     </div>
+  </div>
   </div>
 </div>

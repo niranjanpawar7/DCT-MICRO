@@ -183,3 +183,15 @@ body{
 {
    font-family: BrixSlab;
 }
+.img-responsive{
+ outline: none;
+}
+.margin50{
+  margin : 50px 0px;
+}
+.header-wrapper img{
+  cursor: pointer;
+}
+.clr-sky-blue{
+  color: skyblue;
+}
