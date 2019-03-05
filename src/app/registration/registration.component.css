@@ -1,0 +1,76 @@
+.nopadding{
+    padding: 0px;
+}
+.margin35 {
+    margin-top: 35px;
+}
+.padding-upcoming {
+    padding: 0px 30px;
+}.event {
+    padding-top: 50px;
+    padding-left: 13px;
+}.com-hd3 {
+    font-size: 30px;
+    color: #1b447f;
+}
+.margin15 {
+    margin-top: 15px;
+}
+.com-hd4 {
+    font-size: 25px;
+    color: #30b7e2;
+}
+.description {
+    padding-right: 40px;
+}
+.form-wrapper label{
+    font-weight: normal;
+    color: #484b4cc4;
+}
+.form-wrapper .form-control{
+    height: 40px;
+    border-radius: 0px;
+    border:1px solid #3333;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.pr-0{
+    padding-right: 0px;
+} 
+.btn-register{
+    background-color: #30b7e2;
+    color: #fff;
+    padding: 9px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+hr{
+    border-top: 1px solid #636363;
+}
+.mat-radio-button {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    margin-bottom: 15px;
+}
+.text-wrapper-form{
+    font-weight: bold;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+.rm-rf-bold{
+    font-weight: normal
+}
+.pr-30{
+    padding-right: 30px;
+}
+.text-up-sz{
+    font-size: 16px;
+}
+.text-area-cls{
+    height:200px;
+     width: 100%;
+}
