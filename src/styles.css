@@ -69,6 +69,12 @@ h5.i-am-better {
   margin-left: 20px;
 }
 @media (max-width: 768px){
+  .find-event-block .width-1024-type {
+    width: 50% !important;
+  }
+  .find-event-block .width-1024-state {
+    width: 50% !important;
+  }
   .select-wrap {
     margin-bottom: 20px;
   }
@@ -685,6 +691,12 @@ section.footer {
   .confirm-zip {
     margin: 0px !important;
   }
+  .find-event-block .width-1024-type {
+    width: 100% !important;
+  }
+  .find-event-block .width-1024-state {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -727,16 +739,18 @@ section.footer {
     margin-bottom: 0px;
     padding-right: 0px;
   }
-}
 
-@media screen and (min-width: 1024px){
-  
   .find-event-block .width-1024-state{
     width: 25%;
   }
   .find-event-block .width-1024-type{
     width: 50%;
   }
+}
+
+@media screen and (min-width: 1024px){
+  
+  
 }
 @media screen and (min-width: 1400px) {
   .container{ width: 80%; }
