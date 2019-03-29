@@ -39,7 +39,7 @@ padding: 10vh 0px 10vh 0px;
 }
 .thank-you-section{
     margin-top: 23px;
-    border-left: none;
+    border-left: none !important;
 }
 .quotes {
   display: inline-flex;
@@ -689,12 +689,17 @@ section.footer {
 
 @media screen and (max-width: 768px){
   .form-wrap .custom-input-width{
-    width: 100%;
+    width: 100% !important;
   }
   .confirm-zip {
     margin: 0px !important;
   }
 }
+
+@media screen and (max-width: 1440px){
+  
+}
+
 
 @media screen and (max-width: 320px){
   h5.i-am-better {
