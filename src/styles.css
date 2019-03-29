@@ -8,7 +8,7 @@ body {
 a:hover{text-decoration: none;}
 
 section.hero {
-  background-image: url('/assets/img/img-hero.png');
+  background-image: url('assets/img/img-hero.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }	
@@ -329,7 +329,7 @@ section.footer {
   background-color: transparent !important;
   color: #4B5458 !important;
   position: relative;
-  background: #fff url(/assets/icons/12.png) no-repeat;
+  background: #fff url(assets/icons/12.png) no-repeat;
   background-size: 25px;
   background-position: right 10px center;
   -webkit-appearance: none;
@@ -381,7 +381,7 @@ section.footer {
     border: 1px solid #bf1e74 !important;
     color: #4B5458 !important;
     position: relative;
-    background: #fff url('/assets/icons/11.png') no-repeat;
+    background: #fff url('assets/icons/11.png') no-repeat;
     background-size: 25px;
     background-position: right 10px center;
     -webkit-appearance: none;
