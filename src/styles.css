@@ -39,7 +39,7 @@ padding: 10vh 0px 10vh 0px;
 }
 .thank-you-section{
     margin-top: 23px;
-    border-left: none;
+    border-left: none !important;
 }
 .quotes {
   display: inline-flex;
@@ -69,6 +69,12 @@ h5.i-am-better {
   margin-left: 20px;
 }
 @media (max-width: 768px){
+  .find-event-block .width-1024-type {
+    width: 50% !important;
+  }
+  .find-event-block .width-1024-state {
+    width: 50% !important;
+  }
   .select-wrap {
     margin-bottom: 20px;
   }
@@ -521,7 +527,7 @@ section.footer {
   background-color: #BF1E74 !important;
   border: none !important;
   padding: 10px 0px !important;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .search-result {background: linear-gradient(136.18deg, #25408F 0%, #7C2D7E 73.3%, #BF1E74 100%);padding: 40px;}
@@ -679,9 +685,51 @@ section.footer {
   .selected-wrap {
     width: 100%;
   }
+  .form-wrap .custom-input-width{
+    width: 100%;
+  }
+  .confirm-zip {
+    margin: 0px !important;
+  }
+  .find-event-block .width-1024-type {
+    width: 100% !important;
+  }
+  .find-event-block .width-1024-state {
+    width: 100% !important;
+  }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 768px){
+  .form-wrap .custom-input-width{
+    width: 100% !important;
+  }
+  .confirm-zip {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  
+}
+
+
+@media screen and (max-width: 320px){
+  h5.i-am-better {
+      min-height: 150px;
+  }
+  .form-wrap .custom-input-width{
+    width: 100%;
+  }
+  .confirm-zip {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (max-width: 1024px){
+  .section-about {
+    padding: 4rem 10rem 8rem 10rem;
+  }
   .form-wrap .custom-input-width{
     width: 47%;
   }
@@ -691,12 +739,18 @@ section.footer {
     margin-bottom: 0px;
     padding-right: 0px;
   }
+
   .find-event-block .width-1024-state{
     width: 25%;
   }
   .find-event-block .width-1024-type{
     width: 50%;
   }
+}
+
+@media screen and (min-width: 1024px){
+  
+  
 }
 @media screen and (min-width: 1400px) {
   .container{ width: 80%; }
