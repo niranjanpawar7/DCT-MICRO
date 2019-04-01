@@ -2,31 +2,36 @@
 
 @font-face {
   font-family: tofino;
-  src: url('/assets/font/Tofino\ Regular.ttf');
+  /* src: url('/assets/font/Tofino\ Regular.ttf'); */
+  src: url('assets/font/Tofino-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: tofino;
-  src: url('/assets/font/Tofino\ Medium.ttf');
+  /* src: url('/assets/font/Tofino\ Medium.ttf'); */
+  src: url('assets/font/Tofino-Medium.ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: tofino;
-  src: url('/assets/font/Tofino\ Bold.ttf');
+  /* src: url('/assets/font/Tofino\ Bold.ttf'); */
+  src: url('assets/font/Tofino-Bold.ttf');
   font-weight: 600;
 }
 
 @font-face {
   font-family: tofino;
-  src: url('/assets/font/Tofino\ Book.ttf');
+  /* src: url('/assets/font/Tofino\ Book.ttf'); */
+  src: url('assets/font/Tofino-Book.ttf');
   font-weight: 300;
 }
 
 @font-face {
   font-family: tofino;
-  src: url('/assets/font/Tofino\ Thin.ttf');
+  /* src: url('/assets/font/Tofino\ Thin.ttf'); */
+  src: url('assets/font/Tofino-Thin.ttf');
   font-weight: 100;
 }
 
