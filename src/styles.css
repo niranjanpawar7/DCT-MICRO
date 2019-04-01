@@ -1018,7 +1018,7 @@ section.footer {
 
 
 
-.section-about{padding: 4rem 12rem 8rem 12rem;}
+.section-about{padding: 4rem 8.5rem 8rem 12rem;}
 
 
 
@@ -1624,7 +1624,7 @@ section.footer {
 
   .section-about {
 
-    padding: 4rem 15rem 8rem 15rem !important;
+    padding: 4rem 2.9rem 8rem 15rem !important;
 
   }
 
@@ -1634,6 +1634,10 @@ section.footer {
 
   }
 
+}
+
+.thank-you-section a{
+  background-color: transparent !important;
 }
 
 
