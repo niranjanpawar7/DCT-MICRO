@@ -172,6 +172,7 @@ h5.i-am-better {
   .find-event-block .width-1024-type {
 
     width: 50% !important;
+    padding: 0px !important;
 
   }
 
@@ -1469,7 +1470,7 @@ section.footer {
 
   .alexion-gmg-events{font-size: 18px;}
 
-  .no-mar-pad-mobile{padding: 0px; margin: 0px;}
+  .no-mar-pad-mobile{padding: 0px !important; margin: 0px !important;}
 
    section.footer{padding-left: 18px !important;}
 
@@ -1776,7 +1777,7 @@ line-height: 45px;
 
 }
 
-@media(max-width: 1440px){
+@media only screen and (min-width: 1224px) and (max-width: 1440px){
   .custom-grid-8{
     width: 74rem !important;
   }
@@ -1785,6 +1786,18 @@ line-height: 45px;
   }
   .custom-grid-2{
     width: 16rem !important;
+  }
+}
+
+@media(max-width: 1440px){
+  .custom-grid-8{
+    width: 74rem;
+  }
+  .custom-grid-6{
+    width: 34rem;
+  }
+  .custom-grid-2{
+    width: 16rem;
   }
   
   .margin-l-30{
