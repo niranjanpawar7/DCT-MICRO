@@ -1778,13 +1778,13 @@ line-height: 45px;
 
 @media(max-width: 1440px){
   .custom-grid-8{
-    width: 74rem;
+    width: 74rem !important;
   }
   .custom-grid-6{
-    width: 34rem;
+    width: 34rem !important;
   }
   .custom-grid-2{
-    width: 16rem;
+    width: 16rem !important;
   }
   
   .margin-l-30{
